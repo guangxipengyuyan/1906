@@ -1,12 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>360商城登录页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/enter.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/enter.js"></script>
 </head>
+
 <body>
-    <div id="box"></div>
+    <div id="kad">
+        <div class="container_background">
+            <div class="container_background_logo"></div>
+            <div class="container_background_tun"></div>
+            <div class="container">
+                <div class="cont_left">
+                    <img src="../images/CgAgEVctrCiAC1slAAHd-utbGgk880.jpg" alt="">
+                </div>
+                <div class="cont_right">
+                    <div id="user_login" class="contr_box" style="display: block">
+                        <span class="cont_ewm">
+                            <img src="../images/login_ewm.jpg" alt="">
+                        </span>
+                        <h3>欢迎登录</h3>
+                        <p class="login_prompt" style="display: none">
+                            <i class="prompt_icon"></i>
+                            <span class="prompt_size">公共场所不建议免登录，以防账号丢失，造成不必要损失</span>
+                        </p>
+                        <p class="user_wap">
+                            <i class="login_icon"></i>
+                            <input class="Linput" type="text" name="" id="user_name" placeholder="请输入用户名/手机号码/邮箱">
+                        </p>
+                        <div class="separate_box">
+                            <p id="user_ts" style="display: none">
+                                <i class="prompt_icon"></i>
+                                <span class="prompt_size">登录名不能为空！</span>
+                            </p>
+                        </div>
+
+                        <p class="user_wap">
+                            <i class="psw_icon login_icon"></i>
+                            <input class="Linput" type="password" name="" id="user_password" placeholder="请输入您的密码">
+                        </p>
+                        <div class="separate_box">
+                            <p id="psw_ts" style="display: none">
+                                <i class="prompt_icon"></i>
+                                <span class="prompt_size">密码不能为空！</span>
+                            </p>
+                        </div>
+
+                        <p class="login_select">
+                            <input class="Sinput" type="checkbox" id="select_btn">
+                            <span>3天免登录</span>
+                        </p>
+                        <a id="login_btn" class="login_btn" href="javascript:;">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                        <p class="login_register">
+                            <a class="register_left" href="../html/reg.html">免费注册></a>
+                            <a class="register_right" href="javascript:;">忘记密码？</a>
+                        </p>
+                        <div class="login_order">
+                            <p class="order_title">
+                                <span class="order_size">使用合作网站帐号登录360</span>
+                            </p>
+                            <div class="order_cont">
+                                <ul>
+                                    <li class="list1">
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                    <li class="list2">
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                    <li class="list3">
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                    <li class="list4">
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                    <li class="list5">
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ewb_login" class="contr_box" style="display: none">
+                        <span class="ewb_icon">
+                            <img src="../images/login_pc.jpg" alt="">
+                        </span>
+                        <h3>扫码登录，更安全</h3>
+                        <div>
+                            <div class="sm_pic">
+                                <p class="sm_pic_left fl">
+                                    <img src="../images/LoginPC.jpg" alt="">
+                                </p>
+                            </div>
+                            <p class="sm_icon sm_icon2">
+                                <i class="fl">
+                                    <img src="../images/smICon.jpg" alt="">
+                                </i>
+                                <span>请使用
+                                    <a href="javascript:;">
+                                        康爱多APP
+
+                                    </a> 扫码登录
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="k_footer">
+            <div class="footer_container">
+                <p class="aboutKadList">
+                    <a class="pifa_shop" href="javascript:;">批发商洽
+                        <span></span>
+                    </a> |
+                    <a href="javascript:;">关于我们</a> |
+                    <a href="javascript:;">掌上药店</a> |
+                    <a href="javascript:;">实体药店</a> |
+                    <a href="javascript:;">加入康爱多</a> |
+                    <a href="javascript:;">联系我们</a> |
+                    <a style="display: none" href="javascript:;">厂商合作</a>
+                    <a href="javascript:;">经营认证</a> |
+                    <a href="javascript:;">友情链接</a> |
+                    <a href="javascript:;">TAG列表</a> |
+                    <a href="javascript:;">网站地图</a> |
+                    <a href="javascript:;">CPS联盟</a>
+                </p>
+                <p class="diploma_list" style="padding-bottom: 0px">
+                    <a href="javascript:;">互联网药品交易服务资格证书</a> |
+
+                    <a href="javascript:;">互联网药品信息服务资格证书</a> |
+
+                    <a href="javascript:;">执业药师证</a> |
+
+                    <a href="javascript:;">药品经营许可证</a> |
+
+                    <a href="javascript:;">食品经营许可证</a> |
+
+                    <a href="javascript:;">公司营业执照</a> |
+
+                    <a href="javascript:;">GSP认证证书</a> |
+
+                </p>
+                <p class="bottom">©2010-2019 广东
+                    <a style="padding: 0px;color: #666;" href="javascript:;">康爱多网上药店</a>版权所有，并保留所有权利</p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
