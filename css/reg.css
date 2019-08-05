@@ -1,0 +1,259 @@
+@charset "UTF-8";
+#kad .k_head {
+  height: 68px;
+  margin: 0 auto;
+  background: #e8e8e8;
+}
+#kad .k_head .h_logo {
+  width: 266px;
+  height: 68px;
+  float: left;
+}
+#kad .k_head .h_logo a{
+  height: 100%;
+  float: right;
+  line-height: 86px; 
+}
+#kad .k_head .h_list {
+  padding: 0 20px;
+  height: 68px;
+  float: left;
+  line-height: 90px;
+  font-size: 26px;
+}
+#kad .k_head .h_login {
+  height: 100%;
+  line-height: 74px;
+  float: right;
+  text-align: right;
+}
+#kad .k_head .h_login a {
+  color: #006ee7;
+}
+#kad .k_head .h_login a:hover {
+  text-decoration: underline;
+}
+#kad .k_register .check {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#kad .k_register .check h3 {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 22px;
+}
+#kad .k_register .check .register-from {
+  padding: 0 0 100px 360px;
+}
+#kad .k_register .check .register-from .register_code {
+  background-color: #b5b5b5;
+  color: #fff;
+  text-align: center;
+  font: 14px/50px '瀹嬩綋';
+  cursor: pointer;
+  width: 140px;
+  height: 48px;
+  border: solid 1px #ddd;
+  float: left;
+  padding: 0 14px;
+  position: relative;
+}
+#kad .k_register .check .register-from .register_phone {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#kad .k_register .check .register-from .register_phone .user_font {
+  width: 90px;
+  height: 38px;
+  line-height: 38px;
+  float: left;
+  color: #666;
+}
+#kad .k_register .check .register-from .register_phone .user_font .text_Num {
+  margin: 0px -2px;
+  width: 5px;
+  display: inline-block;
+}
+#kad .k_register .check .register-from .register_phone .user_font .indentSize2 {
+  width: 42px;
+  display: inline-block;
+}
+#kad .k_register .check .register-from .register_phone .phone_text {
+  width: 463px;
+  height: 38px;
+  padding: 5px 0 5px 15px;
+  border: solid 1px #ddd;
+  font-size: 14px;
+  float: left;
+}
+#kad .k_register .check .register-from .register_phone .phone_text #text_show {
+  float: left;
+  width: 26px;
+  height: 16px;
+  padding: 11px;
+  border-left: solid 1px #ddd;
+  cursor: pointer;
+}
+#kad .k_register .check .register-from .register_phone .phone_text #text_show i {
+  display: inline-block;
+  width: 26px;
+  height: 16px;
+  background: url(../img/iconPng8.png) no-repeat -131px 0;
+}
+#kad .k_register .check .register-from .register_phone .phone_text #text_show .show_icon {
+  background: url(../img/iconPng8.png) no-repeat -168px 0;
+}
+#kad .k_register .check .register-from .register_phone .phone_text .user_text {
+  width: 323px;
+  height: 38px;
+  line-height: 38px;
+  float: left;
+  display: block;
+}
+#kad .k_register .check .register-from .register_phone .phone_text .input_promp {
+  display: none;
+  width: 22px;
+  height: 22px;
+  float: left;
+  padding: 8px 13px;
+}
+#kad .k_register .check .register-from .register_phone .phone_text .input_promp i {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  background: url(../images/iconPng8.png) no-repeat -99px 0;
+}
+#kad .k_register .check .register-from .register_phone .bind_prompt {
+  display: none;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  margin-left: 10px;
+}
+#kad .k_register .check .register-from .register_phone .bind_prompt i {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background: url(../images/iconPng8.png) no-repeat;
+  background-position: 0 0;
+  margin: 6px 5px;
+  margin-top: 19px;
+}
+#kad .k_register .check .register-from .register_phone .bind_prompt .prompt_size {
+  display: inline-block;
+  color: #666;
+}
+#kad .k_register .check .register-from .register_phone .nc_wrapper, #kad .k_register .check .register-from .register_phone #nc_1_wrapper {
+  width: 480px;
+}
+#kad .k_register .check .register-from .register_phone .nc_wrapper .nc_scale, #kad .k_register .check .register-from .register_phone #nc_1_wrapper .nc_scale {
+  width: auto;
+  height: 34px;
+  background: #e8e8e8;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#kad .k_register .check .register-from .register_phone .nc_wrapper .nc_scale .nc_bg, #kad .k_register .check .register-from .register_phone #nc_1_wrapper .nc_scale .nc_bg {
+  position: absolute;
+  height: 100%;
+  height: 34px;
+  left: 0;
+  width: 10px;
+  background: #7ac23c;
+}
+#kad .k_register .check .register-from .register_phone .nc_wrapper .nc_scale span, #kad .k_register .check .register-from .register_phone #nc_1_wrapper .nc_scale span {
+  text-align: center;
+  width: 40px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #ccc;
+  position: absolute;
+  left: 0;
+  cursor: move;
+  background: #fff;
+  z-index: 2;
+}
+#kad .k_register .check .register-from .register_phone .nc_wrapper .nc_scale .btn_slide, #kad .k_register .check .register-from .register_phone #nc_1_wrapper .nc_scale .btn_slide {
+  color: #737383;
+  background-image: none;
+  -webkit-font-smoothing: antialiased;
+}
+#kad .k_register .check .register-from .register_phone .nc_wrapper .nc_scale .nc_iconfont, #kad .k_register .check .register-from .register_phone #nc_1_wrapper .nc_scale .nc_iconfont {
+  font-family: "nc_iconfont";
+}
+#kad .k_register .check .register-from .register_phone .nc_wrapper .nc_scale .scale_text, #kad .k_register .check .register-from .register_phone #nc_1_wrapper .nc_scale .scale_text {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  background: transparent;
+  color: #9c9c9c;
+  line-height: 34px;
+  font-size: 12px;
+  cursor: pointer;
+}
+#kad .k_register .check .register-from .register_phone .nc_wrapper .nc_scale .scale_text .nc-lang-cnt, #kad .k_register .check .register-from .register_phone #nc_1_wrapper .nc_scale .scale_text .nc-lang-cnt {
+  float: none;
+  height: auto;
+  border: none;
+  position: static;
+  cursor: inherit;
+  z-index: 0;
+}
+#kad .k_register .check .register-from .register_phone .bind_code {
+  width: 268px;
+  height: 38px;
+  border: solid 1px #ddd;
+  float: left;
+  padding: 5px 15px;
+  margin-right: 10px;
+  float: left;
+}
+#kad .k_register .check .register-from .register_phone .bind_code .user_code {
+  width: 178px;
+  height: 38px;
+  line-height: 38px;
+  float: left;
+}
+#kad .k_register .check .register-from .statement {
+  height: 20px;
+  line-height: 20px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+#kad .k_register .check .register-from .statement a {
+  color: #006ee7;
+}
+#kad .k_register .check .register-from .statement a:hover {
+  text-decoration: underline;
+}
+#kad .k_register .check .register-from .register {
+  width: 450px;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  text-align: center;
+  background: #28bc58;
+  color: #fff;
+  font-size: 20px;
+}
+#kad .k_footer {
+  width: 100%;
+  height: 120px;
+}
+#kad .k_footer .k_footer_txt{
+  width: 1200px;
+  height: 100%;
+  margin:200px auto;
+  text-align: center;
+  font-size: 16px;
+}
+.k_footer_txt p a{
+  color: #9c9c9c;
+}

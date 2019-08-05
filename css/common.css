@@ -1,0 +1,107 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+img{
+    border: none;
+}
+.clear{
+    clear: both;height: 0;width: 100%;
+}
+.color1{
+    color: #1f9c24;
+}
+.color2{
+    color: #ee5a98;
+}
+.color3{
+    color: #3b5d9a;
+}
+.color4{
+    color: #ee750c;
+}
+.color5{
+    color: #4498a2;
+}
+#kad {
+    color: #333333;
+    font-family: "Microsoft Yahei";
+    font-size: 12px;
+    background: #fff;
+}
+#kad .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+#kad .k_footer .footer_container {
+    width: 100%;
+    padding: 30px 0;
+  }
+.footer_container{
+    width: 980px;
+    margin: 0 auto;
+}
+#kad .k_footer .footer_container .bottom {
+    padding: 5px 0;
+    text-align: center;
+    color: #666; }
+#kad .k_footer .footer_container .aboutKadList {
+    margin-top: 6px;
+    padding-top: 6px;
+    text-align: center; }
+#kad .k_footer .footer_container .aboutKadList .pifa_shop {
+    padding-right: 0;
+    color: #666;
+    position: relative; }
+#kad .k_footer .footer_container .aboutKadList .pifa_shop span {
+    background: url(../images/pifa_new.png);
+    width: 23px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    top: -7px;
+    left: 27px; }
+#kad .k_footer .footer_container .aboutKadList a {
+    color: #666;
+    padding-right: 0px; }
+#kad .k_footer .footer_container .diploma_list {
+    padding: 0 0 20px 16px;
+    text-align: center; }
+#kad .k_footer .footer_container .diploma_list a {
+    color: #666;
+    padding-right: 0px; }
+    #kad .k_footer a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    #kad .k_head {
+        height: 90px;
+        margin: 0 auto;
+        /* padding-top: 10px; */
+      }
+      #kad .k_head .h_logo {
+        width: 266px;
+        height: 90px;
+        float: left;
+      }
+      #kad .k_head .h_list {
+        padding: 0 20px;
+        height: 90px;
+        float: left;
+        line-height: 90px;
+        font-size: 26px;
+      }
+      #kad .k_head .h_login {
+        width: 120px;
+        height: 90px;
+        line-height: 140px;
+        float: right;
+        text-align: right;
+      }
+      #kad .k_head .h_login a {
+        color: #006ee7;
+      }
+      #kad .k_head .h_login a:hover {
+        text-decoration: underline;
+      }
+      
