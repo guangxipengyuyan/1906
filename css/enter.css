@@ -102,7 +102,7 @@
                 width: 18px;
                 height: 22px;
                 display: inline-block;
-                float: left;
+                /* float: left; */
                 background: url(../img/iconPng8.png) no-repeat -20px 0;
                 margin: 9px 10px;
             }
