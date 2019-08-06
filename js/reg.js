@@ -103,7 +103,7 @@ $(function () {
                         storage.user = user;
                         storage.psw = psw;
                         alert('登录成功');
-                        location.href = `../shouye.html?`;
+                        location.href = `../360shouye.html?`;
                     }
                 });
             } else {

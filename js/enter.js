@@ -49,7 +49,7 @@ $(function () {
             //非空判断
             $.ajax({
                 type: "post",
-                url: "../api/login.php",
+                url: "../php/enter.php",
                 async: true,
                 data: {
                     username: user,
@@ -64,7 +64,7 @@ $(function () {
                         storage.user = user;
                         storage.psw = psw;
                         alert('登录成功');
-                        location.href = `../shouye.html?`;
+                        location.href = `../360shouye.html?`;
                         isok = true;
                     } else {
                         // console.log(123);
