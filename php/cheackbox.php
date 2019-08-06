@@ -1,12 +1,12 @@
 <?php
     include 'sql.php';
-    $user = isset($_POST["username"])?$_POST["username"]:'13922952296';
-    $sql = "SELECT * FROM user_inf WHERE user='$user'";
+    $user = isset($_POST["username"])?$_POST["username"]:'15207702636';
+    $sql = "SELECT user,psw FROM user_inf;";
     $res = $conn->query($sql);
     if($res->num_rows){
-        echo 'no';
-    }else{
         echo 'yes';
+    }else{
+        echo 'no';
     }
     $res->close();
     $conn->close();

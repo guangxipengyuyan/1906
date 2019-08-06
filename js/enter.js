@@ -1,5 +1,4 @@
 $(function () {
-    //扫码登录和账号登录切换
     $('#user_login .cont_ewm').on('click', function () {
         $('#user_login').css('display', 'none');
         $('#ewb_login').css('display', 'block');
@@ -8,9 +7,6 @@ $(function () {
         $('#user_login').css('display', 'block');
         $('#ewb_login').css('display', 'none');
     });
-
-
-
     var isok = false;
     $('#user_name').on('blur', function () {
         var user = $.trim($('#user_name').val());
@@ -45,7 +41,7 @@ $(function () {
         var user = $.trim($('#user_name').val());
         var psw = $.trim($('#user_password').val());
         if (user && psw) {
-            console.log(123);
+            // console.log(123);
             //非空判断
             $.ajax({
                 type: "post",
@@ -64,7 +60,7 @@ $(function () {
                         storage.user = user;
                         storage.psw = psw;
                         alert('登录成功');
-                        location.href = `../360shouye.html?`;
+                        location.href = `../html/360shouye.html?`;
                         isok = true;
                     } else {
                         // console.log(123);
