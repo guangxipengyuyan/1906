@@ -2,7 +2,7 @@
     include 'sql.php';
     $user = isset($_POST['username'])? $_POST['username'] : '';
     $psw = isset($_POST['password'])? $_POST['password']: '';
-    $sql = "INSERT INTO user_inf (user,psw) VALUES ('$user','$psw')";
+    $sql = "SELECT user,psw FROM user_inf;";
 
     $res =$conn->query($sql);
 
@@ -13,5 +13,5 @@
     }
 
     $res->close();
-    $conn->clone();
+    $conn->close();
 ?>

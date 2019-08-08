@@ -19,4 +19,19 @@
     height: 90px;
     background:url(../img/t010370f37de82643f5.webp);
 }
+<<<<<<< HEAD
 
+=======
+.thead-middle-1{
+    width: 1180px;
+    height: 100%;
+    background: orange;
+    margin: auto;
+    text-indent: -9999px;
+}
+.thead-middle-2{
+    width: 100%;
+    height: 36px;
+    background: yellow;
+}
+>>>>>>> cd19f5ae7d1d500a75a2efeda87df95683421e4e

@@ -20,7 +20,7 @@ $(function () {
                             $('#bind_pan').css('display', 'none');
                             isok = true;
                         } else {
-                            $('#bind_pan').css('display', 'block').children().eq(1).css('color', 'red').html('该手机号已存在,您可以直接使用该号码进行' + '<a style="color: #006ee7;" href="../html/login.html"> 立即登录</a>');
+                            $('#bind_pan').css('display', 'block').children().eq(1).css('color', 'red').html('该手机号已存在,您可以直接使用该号码进行' + '<a style="color: #006ee7;" href="../html/enter.html"> 立即登录</a>');
                             $('.input_promp').css('display', 'none');
                             isok = false;
                         }
@@ -102,8 +102,8 @@ $(function () {
                         var storage = window.localStorage;
                         storage.user = user;
                         storage.psw = psw;
-                        alert('登录成功');
-                        location.href = `../shouye.html?`;
+                        alert('注册成功，跳转到登录页');
+                        location.href = `../html/enter.html?`;
                     }
                 });
             } else {
