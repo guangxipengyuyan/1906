@@ -130,7 +130,6 @@
 .tfoot_2_box{
     width: 1180px;
     height: 100%;
-    background: orange;
     margin: auto;
 }
 .tfoot_2_box1{
@@ -145,6 +144,11 @@
     margin-left: 107px; 
 }
 .tfoot_2_box2{
-    width: 10%;
+    width: 100%;
     height: 80px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    margin-top:20px; 
 }
