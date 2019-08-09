@@ -19,6 +19,63 @@
 .parBox_left2{
     width: 636px;
     height: 100%;
-    background: blue;
     margin: -598px 0 0 606px;
+}
+.parBox_left2_box1{
+    width: 620px;
+    height: 89px;
+    padding: 20px 0 0 30px;
+}
+.parBox_left2_box1 strong{
+    font-size: 28px;
+    font-weight: 400;
+}
+.parBox_left2_box1 p{
+    color: #666;
+    line-height: 30px;
+}
+.parBox_left2_box2{
+    width: 620px;
+    height: 275px;
+    padding: 0 0 0 30px;
+}
+.parBox_left2_box2_laft{
+    width: 98%;
+    height: 60px;
+    background: #f8f8f8;
+}
+.parBox_left2_box2_laft strong{
+    font-size: 36px;
+    color: red;
+}
+.parBox_left2_box2_last{
+    padding-top:20px;
+    width: 98%; 
+    border-bottom: 1px solid #666;
+}
+.parBox_left2_box2_last a{
+    width: 93%;
+    height: 36px;
+    color: red;
+}
+.parBox_left2_box2_left{
+    width: 98%;
+    height: 42px;
+    padding-top:20px; 
+}
+.parBox_left2_box2_left ul li{
+    text-align: center;
+    line-height: 35px;
+    width: 56px;
+    height: 36px;
+    color: red;
+    border: 1px solid red;
+    float: left;
+    margin: -26px 0 0 68px;
+}
+.parBox_left2_box2_right{
+    width: 98%;
+    height: 66px;
+    background: olivedrab;
+    line-height: 35px;
 }

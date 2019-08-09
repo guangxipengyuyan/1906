@@ -1,0 +1,9 @@
+#listBox{
+    width: 1903px;
+    height: 1420px;;
+}
+.listBox_left{
+    width: 100%;
+    height: 600px;
+    background: orange;
+}

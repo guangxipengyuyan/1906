@@ -97,6 +97,7 @@ img{
 	float: left;
 	width: 100px;
 	cursor: pointer;
+	margin-left: 5px;
 }
 .magnifier-line ul > .active .small-img{
 	border-color: #bbb;
