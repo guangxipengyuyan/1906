@@ -65,7 +65,122 @@
 }
 .tbody{
     width: 1180px;
-    height: 1000px;
-    background: orange;
+    height: 2000px;
     margin: auto;
+    margin-top: -86px;
+}
+.tbody_box1{
+    width: 100%;
+    height: 514px;
+}
+.tbody_box1_fast{
+    width: 100%;
+    height: 24px;
+    font-size: 20px;
+}
+.tbody_box1_last{
+    width: 100%;
+    height: 480px;
+    margin-top: 5px;
+}
+.tbody_box1_last ul li{
+    width: 380px;
+    height: 460px;
+    float: left;
+    margin-left:10px; 
+}
+.tbody_box1_last ul li img{
+    width: 380px;
+    height: 460px;
+}
+.tbody_box1_last ul li :hover{
+    width: 378px;
+    height:458px ;
+}
+.tbody_box2{
+    width: 100%;
+    height: 434px;
+}
+.tbody_box2_fast{
+    width: 100%;
+    height: 24px;
+    font-size: 20px;
+}
+.tbody_box2_last{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+.tbody_box2_last_box1{
+    width: 240px;
+    height: 380px;
+}
+.tbody_box2_last_box2{
+    width: 940px;
+    height: 400px;
+    float:right;
+    margin-top: -380px;
+}
+.tbody_box2_last_box2_fast{
+    width: 450px;
+    height: 100%;
+}
+.tbody_box2_last_box2_last{
+    width: 450px;
+    height: 100%;
+    float: right;
+    margin-top:-400px;
+}
+.tbody_box2_last_box2_fast_box1{
+    width: 100%;
+    height: 180px;
+}
+.tbody_box2_last_box2_fast_box2{
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+}
+.listbox{
+    width: 160px;
+    height: 160px;
+}
+.listbox img{
+    width: 160px;
+    height: 160px;
+}
+.listbox1{
+    width: 290px;
+    height: 160px;
+    float: right;
+    margin-top:-160px;
+}
+.listbox_fast{
+    width: 255px;
+    height: 106px;
+}
+.listbox_fast p{
+    font-size: 18px;
+    color: #666;
+}
+.listbox_last{
+    width: 100%;
+    height: 35px;
+}
+.listbox_last_box{
+    width: 135px;
+    height: 35px;
+    background: #000;
+    border-radius: 10px 10px 10px 10px ;
+    color: #f0f0f0;
+    text-align: center;
+    line-height: 35px;
+}
+.tbody_box2_last_box2_last_box1{
+    width: 450px;
+    height: 180px;
+}
+.tbody_box2_last_box2_last_box2{
+    width: 450px;
+    height: 180px;
+    margin-top:30px; 
 }

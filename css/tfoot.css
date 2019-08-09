@@ -103,3 +103,35 @@
     color: #fff;
     margin-top:20px; 
 }
+.border{
+    width: 100%;
+    height: 274px;
+}
+.border_box1{
+    width: 100%;
+    height: 24px;
+}
+.border_box1 i{
+    font-size: 20px;
+}
+.border_box2{
+    width: 100%;
+    height: 240px;
+    background: yellow;
+    margin-top: 5px;
+}
+.border_box2_top{
+    width: 480px;
+    height: 220px;
+    background: orange;
+}
+.border_box2_left{
+    width: 480px;
+    height: 220px;
+    background: orange;
+}
+.border_box2_bottom{
+    width: 480px;
+    height: 220px;
+    background: orange;
+}
