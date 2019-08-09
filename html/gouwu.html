@@ -4,19 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/css2.css">
-    <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/headline.css">
-    <link rel="stylesheet" href="../css/360shouye.css">
+    <link rel="stylesheet" href="../css/top.css">
+    <link rel="stylesheet" href="../css/gouwu.css">
     <link rel="stylesheet" href="../css/tfoot.css">
-    <script src="../js/jquery-1.10.1.min.js"></script>
-    <script src="../js/common.js"></script>
-    <script src="../js/js.js"></script>
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/gouwu.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    <div id="box">
+    <div id="cart">
         <div class="thead">
             <div class="thead-top">
                 <div class="thead-top-1"></div>
@@ -43,107 +40,119 @@
                                 </div>
                             </div>
                             <div class="thead-top-2-1-box2-3">
-                                    <a href="###">
-                                        <i></i>
-                                        <div class="thead-top-2-1-box2-3-1">
-                                            <p>
-                                                <a href="../html/gouwu.html">登入</a>后查看购物车
-                                            </p>
-                                        </div>
-                                    </a>
+                                <a href="###">
+                                    <i></i>
+                                    <div class="thead-top-2-1-box2-3-1">
+                                        <p>
+                                            <a href="###">登入</a>后查看购物车
+                                        </p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="thead-middle">
-                <div class="thead-middle-1">
-                    <h1>360会员商城</h1>
-                    <div class="thead-middle-2">
-                            <a href="###">
-                            <div class="thead-middle-2-1"></div>
-                            </a>
-                        
-                        <div class="thead-middle-2-2">
-                            <a href="script:;">领卷中心</a>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="script:;">社区</a>
-                        </div>
-                        <div class="thead-middle-2-3">
-                            <input type="text" placeholder="请输入要搜索的物品">
-                            <i>
-
-                            </i>
-                        </div>
-                    </div>
-                    <div class="ulList">
-                        <div class="ulList_box">
-                            全部分类
-                        </div>
-                        <ul>
-                            <li>
-                                <a href="script:;">安全路由</a>
-                                <div class="ulList_li1">
-                                    <!-- <div class="ulList_li1_1"></div> -->
-                                </div>
-                            </li>
-                            <li>
-                                <a href="script:;">儿童守护</a>
-                                <div class="ulList_li1"></div>
-                            </li>
-                            <li>
-                                <a href="script:;">家庭安防</a>
-                                <div class="ulList_li1"></div>
-                            </li>
-                            <li>
-                                <a href="script:;">扫地机器人</a>
-                                <div class="ulList_li1"></div>
-                            </li>
-                            <li>
-                                <a href="script:;">母婴亲子</a>
-                                <div class="ulList_li1"></div>
-                            </li>
-                            <li>
-                                <a href="script:;">居家生活</a>
-                                <div class="ulList_li1"></div>
-                            </li>
-                            <li>
-                                <a href="script:;">配件频道</a>
-                                <div class="ulList_li1"></div>
-                            </li>
-                            <li>
-                                <a href="script:;">潮流电器</a>
-                                <div class="ulList_li1"></div>
-                            </li>
-                            <li>
-                                <a href="script:;">时尚车品</a>
-                                <div class="ulList_li1"></div>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="gouwu">
+        <div id="cart-header">
+            <div class="left w110 ml10">
+                <input id="selectAll" type="checkbox">
+                <label for="selectAll">全选</label>
+            </div>
+            <div class="left w250">商品</div>
+            <div class="left w120 center">单价</div>
+            <div class="left w120 center">数量</div>
+            <div class="left w120 center">小计</div>
+            <div class="left w120 center">操作</div>
+        </div>
+        <div id="cart-items">
+            <div class="clear single-item">
+                <div class="left w20 ml10">
+                    <input name="selectOne" type="checkbox">
                 </div>
-                
-                <div class="carousel">
-                    <!--图片列表-->
-                    <div class="imglist">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <!--焦点图-->
-                    <p class="light"></p>
-                    <!--上下按钮-->
-                    <div class="posibtn">
-                        <p class="prev">&lt;</p>
-                        <p class="next">&gt;</p>
-                    </div>
+                <div class="left w90">
+                    <a href="">
+                        <img src="img/a1.jpg">
+                    </a>
+                </div>
+                <div class="left w250">
+                    <span>
+                        海澜之家/Heilan Home春装商务白衬衫男修身HNCAD3A067Y 漂白(69) 漂
+                    </span>
+                </div>
+                <div class="left w120 center">&yen;<span class="price">138.00</span></div>
+                <div class="left w120 center">
+                    <button class="small-button">-</button>
+                    <input class="center count" type="text" size="2" value="1">
+                    <button class="small-button">+</button>
+                </div>
+                <div class="left w120 center">&yen;<span>138.00</span></div>
+                <div class="left w120 center">
+                    <a href="javascript:void(0);">删除</a>
+                </div>
+            </div>
+            <div class="clear single-item">
+                <div class="left w20 ml10">
+                    <input name="selectOne" type="checkbox">
+                </div>
+                <div class="left w90">
+                    <a href="">
+                        <img src="img/a2.jpg">
+                    </a>
+                </div>
+                <div class="left w250">
+                    <span>
+                        HLA海澜之家长袖衬衫男牛津纺休闲干净透气HNEAJ1E048A浅灰
+                    </span>
+                </div>
+                <div class="left w120 center">&yen;<span class="price">128.00</span></div>
+                <div class="left w120 center">
+                    <button class="small-button">-</button>
+                    <input class="center count" type="text" size="2" value="1">
+                    <button class="small-button">+</button>
+                </div>
+                <div class="left w120 center">&yen;<span>128.00</span></div>
+                <div class="left w120 center">
+                    <a href="javascript:void(0);">删除</a>
+                </div>
+            </div>
+            <div class="clear single-item">
+                <div class="left w20 ml10">
+                    <input name="selectOne" type="checkbox">
+                </div>
+                <div class="left w90">
+                    <a href="">
+                        <img src="img/a3.jpg">
+                    </a>
+                </div>
+                <div class="left w250">
+                    <span>
+                        HLA海澜之家牛津纺清新休闲衬衫2018春季新品质感柔软长袖衬衫男
+                    </span>
+                </div>
+                <div class="left w120 center">&yen;<span class="price">99.00</span></div>
+                <div class="left w120 center">
+                    <button class="small-button">-</button>
+                    <input class="center count" type="text" size="2" value="1">
+                    <button class="small-button">+</button>
+                </div>
+                <div class="left w120 center">&yen;99.00</div>
+                <div class="left w120 center">
+                    <a href="javascript:void(0);">删除</a>
                 </div>
             </div>
         </div>
-        <div class="tbody"></div>
+        <div id="cart-footer">
+            <div class="clear left">
+                <a id="clearSelected" href="javascript:void(0);">删除选中商品</a>
+            </div>
+            <div class="right">
+                <span>总共选中了<span id="totalCount">0</span>件商品</span>
+                <span>总计: <span id="totalPrice">&yen;0.00</span></span>
+                <button class="big-button">去结算</button>
+            </div>
+        </div>
+    </div>
         <div class="tfoot">
             <div class="tfoot_1">
                 <div class="tfoot_1_box">
@@ -151,7 +160,8 @@
                         <p style="font-size: 19px;">关于商城</p>
                         <br>
                         <br>
-                        <p style="font-size: 14px;line-height: 20px;">360会员商城是360智能硬件产品的官方销售平台。在这里不仅可以购买360产品，还可以及时掌握新品上市情况。商城配有多种营销方式，可以让用户优惠购买。</p>
+                        <p style="font-size: 14px;line-height: 20px;">
+                            360会员商城是360智能硬件产品的官方销售平台。在这里不仅可以购买360产品，还可以及时掌握新品上市情况。商城配有多种营销方式，可以让用户优惠购买。</p>
                         <hr>
                         <a href="script:;" style="color: black;">关于我们</a>
                         &nbsp;&nbsp;&nbsp;&nbsp;
@@ -216,7 +226,7 @@
                         <p style="font-size: 19px;">联系我们</p>
                         <br>
                         <p style="font-size: 30px;">
-                        400-1555-360</p>
+                            400-1555-360</p>
                         <p style="color: #ccc;">
                             周一至周日 9:00-21:00（仅收市话费）
                         </p>
