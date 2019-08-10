@@ -16,6 +16,9 @@
     width: 604px;
     height: 100%;
 }
+.parBox_left2_box2_right1{
+    width: 10px;
+}
 .parBox_left2{
     width: 636px;
     height: 100%;
@@ -49,9 +52,36 @@
     color: red;
 }
 .parBox_left2_box2_last{
-    padding-top:20px;
+    padding-top:40px;
     width: 98%; 
     border-bottom: 1px solid #666;
+}
+.parBox_left2_box3{
+    width: 620px;
+    height: 58px;
+    margin-top: 20px;
+    
+}
+.parBox_left2_box3_list1{
+    width: 240px;
+    height: 100%;
+    background: #fd532d;
+    margin-left:29px; 
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 20px;
+    line-height: 54px
+
+}
+.parBox_left2_box3_list2{
+    width: 150px;
+    height: 100%;
+    margin: -58px 0 0 305px;
+    background: #adadad;
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 20px;
+    line-height: 54px
 }
 .parBox_left2_box2_last a{
     width: 93%;
@@ -61,7 +91,7 @@
 .parBox_left2_box2_left{
     width: 98%;
     height: 42px;
-    padding-top:20px; 
+    padding-top:77px; 
 }
 .parBox_left2_box2_left ul li{
     text-align: center;

@@ -4,9 +4,9 @@
         }
 
         #cart-header {
-            height: 40px;
+            height: 54px;
             background-color: lightgray;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
         }
         .gouwu{
             width: 1180px;
@@ -34,7 +34,7 @@
         }
 
         .w120 {
-            width: 120px;
+            width: 190px;
         }
 
         .w250 {
@@ -52,7 +52,10 @@
         .w90 {
             width: 90px;
         }
-
+        .leftBox img{
+            width: 90px;
+            height: 100px;
+        }
         .clear {
             clear: both;
         }

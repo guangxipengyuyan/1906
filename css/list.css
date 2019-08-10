@@ -4,6 +4,66 @@
 }
 .listBox_left{
     width: 100%;
-    height: 600px;
-    background: orange;
+    height: 1420px;
+    margin-top:143px; 
+}
+.listBox_left_box{
+    width: 1240px;
+    height: 194px;
+    margin: auto;
+}
+.listBox_left_box1{
+    width: 1240px;
+    height: 48px;
+    border-bottom:1px solid #ccc; 
+    line-height: 50px;
+}
+.listBox_left_box2{
+    width: 100%;
+    height: 146px;
+}
+.listBox_left_box2_fast{
+    width: 100%;
+    height: 48px;
+    border-bottom:1px solid #ccc; 
+    line-height: 50px;
+}
+.listBox_left_box2_last{
+    width: 100%;
+    height: 48px;
+    border-bottom:1px solid #ccc; 
+    line-height: 50px;
+}
+.listBox_left_box2_list{
+    width: 100%;
+    height: 48px;
+    line-height: 50px;
+}
+.listBox_last{
+    width: 1240px;
+    height: 1000px;
+    margin: auto;
+}
+.listBox_last ul li{
+    width: 240px;
+    height: 330px;
+    float: left;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.listBox_last_li{
+    width: 238px;
+    height: 215px;
+}
+.listBox_last_li img{
+    width: 165px;
+    height: 165px;
+    margin-top: 30px;
+}
+.listBox_last_text{
+    width: 100%;
+    height: 45px;
+}
+.listBox_last_text1{
+    color: red;
 }
