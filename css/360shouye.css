@@ -65,7 +65,7 @@
 }
 .tbody{
     width: 1180px;
-    height: 2545px;
+    height: 3541px;
     margin: auto;
     margin-top: -86px;
 }
@@ -185,9 +185,6 @@
     height: 180px;
     margin-top:30px; 
 }
-.{
-    margin-top:10px; 
-}
 .border_box2_top1{
     width: 200px;
     height: 200px;
@@ -261,7 +258,6 @@
 .pushBox{
     width: 100%;
     height: 994px;
-    background: orange;
 }
 .pushBox_box1{
     width: 100%;
@@ -269,4 +265,53 @@
 }
 .pushBox_box1 span{
     font-size: 20px;
+}
+.pushBox_box2{
+    width: 100%;
+    height: 960px;
+    margin-top: 5px;
+}
+.pushBox_box2 a{
+    width: 280px;
+    height: 460px;
+    float: left;
+    background: #fff;
+    margin-right: 14px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.pushBox_box2 a:nth-child(1){
+    width: 560px;
+    height: 460px;
+}
+.pushBox_box2 a:nth-child(1) img{
+    width: 560px;
+    height: 460px;
+}
+.pushBox_box2_list1{
+    width: 240px;
+    height: 400px;
+    margin: 20px 0 0 20px;
+    text-align: center;
+}
+.pushBox_box2_list1_box1{
+    width: 80px;
+    height: 20px;
+    background: orangered;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.pushBox_box2_list1_box2{
+    width: 240px;
+    height: 240px;
+    margin-top:10px;
+     
+}
+.pushBox_box2_list1_box2 img{
+    width: 240px;
+    height: 240px;
+}
+.pushBox_box2_list1 p{
+    line-height: 35px;
 }
